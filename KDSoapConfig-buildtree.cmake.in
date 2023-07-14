@@ -7,7 +7,7 @@
 #
 
 
-set(KDSoap_INCLUDE_DIRS "@INSTALL_INCLUDE_DIR@")
+set(KDSoap_INCLUDE_DIRS "@INSTALL_INCLUDE_DIR@/KDSoap${${PROJECT_NAME}_LIBRARY_QTID}")
 
 include("${CMAKE_CURRENT_LIST_DIR}/KDSoapTargets.cmake")
 include("${CMAKE_CURRENT_LIST_DIR}/KDSoapMacros.cmake")
