@@ -88,7 +88,7 @@ if(KDSoap_IS_ROOT_PROJECT)
               KDSoapServerObjectInterface.h
               KDSoapServerGlobal.h
               KDSoapThreadPool.h
-        DESTINATION ${INSTALL_INCLUDE_DIR}/KDSoapServer
+        DESTINATION "${INSTALL_INCLUDE_DIR}/KDSoap${${PROJECT_NAME}_LIBRARY_QTID}/KDSoapServer"
     )
 
     install(
